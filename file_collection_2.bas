@@ -8,7 +8,7 @@ Sub file_collection()
     Dim Datei As String
 
     Application.ScreenUpdating = False
-    Application.DsoplayAlerts = False
+    Application.DisplayAlerts = False
 
     Set Ziel = ActiveWorkbook
 
@@ -28,7 +28,7 @@ Sub file_collection()
     Loop
 
     Application.ScreenUpdating = True
-    Application.ScreeAlerts = True
+    Application.DisplayAlerts = True
 
     MsgBox "Dateien wurden zusammengeführt"
 
